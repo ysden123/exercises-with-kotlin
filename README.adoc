@@ -1,0 +1,7 @@
+= exercises-with-kotlin
+Exercises with Kotlin.
+
+== Sub projects
+
+* kotlin-in-action - exercises from "Kotlin in Action"
+* basics - basics of Kotlin
