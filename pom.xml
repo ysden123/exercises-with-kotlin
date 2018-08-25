@@ -23,6 +23,7 @@
 
     <modules>
         <module>kotlin-in-action</module>
+        <module>basics</module>
     </modules>
 
     <dependencies>
