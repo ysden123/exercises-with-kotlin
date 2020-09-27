@@ -13,7 +13,7 @@ class Rectangle(val height: Int, val width: Int) {
         get() = height == width
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val r1 = Rectangle(1, 2)
     println("r1(${r1.height},${r1.width}) is square: ${r1.isSquare}")
     val r2 = Rectangle(2, 2)

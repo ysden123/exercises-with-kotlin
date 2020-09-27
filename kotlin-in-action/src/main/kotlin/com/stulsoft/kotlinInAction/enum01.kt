@@ -4,7 +4,7 @@
 
 package com.stulsoft.kotlinInAction
 
-enum class Color(val red: Int, val green: Int, val blue: Int) {
+enum class Color(private val red: Int, private val green: Int, private val blue: Int) {
     RED(255, 0, 0),
     ORANGE(255, 165, 0),
     GREEN(0, 255, 0);
@@ -19,7 +19,7 @@ fun getMnemonic(color: Color) =
             Color.GREEN -> "Gave"
         }
 
-fun main(args: Array<String>) {
+fun main() {
     println("Color.ORANGE.rgb(): ${Color.ORANGE.rgb()}")
     println("Color.GREEN.rgb(): ${Color.GREEN.rgb()}")
 
