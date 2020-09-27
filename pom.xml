@@ -20,7 +20,7 @@
         <revision>0.0.2</revision>
         <kotlin.version>1.4.10</kotlin.version>
         <kotlin.compiler.jvmTarget>11</kotlin.compiler.jvmTarget>
-        <log.version>2.7</log.version>
+        <log.version>2.13.3</log.version>
     </properties>
 
     <modules>
